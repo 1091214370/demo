@@ -1,3 +1,15 @@
 .screen {
-  max-width: 1200px;
+  max-width: 1440px;
+  margin: auto;
+}
+.fontWeight {
+  color: #000!important;
+  font-weight: bolder;
+}
+.fontWeight:hover,
+.fontWeight:active {
+  color: blue!important;
+}
+.call {
+  margin-left: 100px;
 }
