@@ -5,11 +5,93 @@
 .fontWeight {
   color: #000!important;
   font-weight: bolder;
+  font-size: 1rem;
 }
 .fontWeight:hover,
 .fontWeight:active {
-  color: blue!important;
+  color: #1378f1!important;
 }
 .call {
-  margin-left: 100px;
+  margin-left: 3rem;
+  padding-left: 1rem;
+  background-image: url(../iamges/call.png);
+  background-position: 0 40%;
+  background-repeat: no-repeat;
+}
+.call a {
+  color: #000!important;
+  font-weight: bolder;
+  font-size: 1rem;
+  font-family: "Helvetica";
+  padding-right: 0;
+}
+header .navbar-default {
+  margin-bottom: 0;
+  background-color: #fff;
+  border: 0;
+}
+header nav .container-fluid {
+  padding: 0;
+}
+header nav .container-fluid .navbar-header .navbar-brand {
+  padding: 20px 15px 15px 15px;
+}
+header nav .container-fluid .navbar-header .navbar-brand img {
+  height: 40px;
+}
+header nav .container-fluid .navbar-header .navbar-toggle {
+  background-color: #fff;
+}
+header nav .container-fluid .collapse {
+  padding: 15px 0;
+}
+header nav .container-fluid .collapse .navbar-nav li a {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  font-family: "PingFangSC-Regular";
+}
+.main {
+  margin: 5rem auto;
+}
+.main .jobShow .row {
+  margin: auto 0;
+}
+.main .jobShow .row .jobShow-item {
+  max-height: 553px;
+}
+.main .news {
+  margin: 50px auto;
+}
+.main .box-title {
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.main .box-title h1 {
+  color: #000;
+  font-family: "SourceHanSansCN-Bold";
+}
+.main .box-title p {
+  color: #ccc;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Helvetica-Bold";
+}
+.main .box-btn {
+  margin: 50px auto;
+}
+.main .box-btn a {
+  width: 141px;
+  height: 40px;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+  font-family: "PingFangSC-Regular";
+  font-size: 14px;
+  color: #929292;
+}
+footer {
+  width: 100%;
+  background-color: #202020;
+  padding: 50px 0;
 }

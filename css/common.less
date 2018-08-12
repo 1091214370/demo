@@ -8,11 +8,114 @@
 .fontWeight{
   color: #000!important;
   font-weight: bolder;
+  font-size: 1rem;
   &:hover,&:active {
-    color: blue!important;
+    color: #1378f1!important;
+  }
+}
+.call {
+  margin-left: 3rem;
+  padding-left: 1rem;
+  background-image: url(../iamges/call.png);
+  background-position: 0 40%;
+  background-repeat: no-repeat;
+  a {
+    color: #000!important;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: "Helvetica";
+    padding-right: 0;
   }
 }
 
-.call {
-  margin-left: 100px;
+// 头部
+header {
+  .navbar-default {
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 0;
+  }
+  nav {
+    .container-fluid {
+      padding: 0;
+      .navbar-header {
+        .navbar-brand {
+          padding: 20px 15px 15px 15px;
+          img{
+            height: 40px;
+          }
+        }
+        .navbar-toggle {
+          background-color: #fff;
+        }
+      }
+      .collapse {
+        padding: 15px 0;
+        .navbar-nav {
+          li {
+            a {
+              padding-left: 0.8rem;
+              padding-right: 0.8rem;
+              font-family: "PingFangSC-Regular";
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// 中间部分
+.main {
+  margin: 5rem auto;
+  .content {
+
+  }
+  .jobShow {
+    .row {
+      margin: auto 0;
+      .jobShow-item {
+        max-height: 553px;
+      }
+    }
+  }
+  .news {
+    margin: 50px auto;
+  }
+  // 区域title
+  .box-title {
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+    h1 {
+      color: #000;
+      font-family: "SourceHanSansCN-Bold"
+    }
+    p {
+      color: #ccc;
+      font-size: 1rem;
+      font-weight: bolder;
+      font-family: "Helvetica-Bold";
+    }
+  }
+  // 区域button
+  .box-btn {
+    margin: 50px auto;
+    a {
+      width: 141px;
+      height: 40px;
+      border-radius: 20px;
+      margin: auto;
+      display: block;
+      font-family: "PingFangSC-Regular";
+      font-size: 14px;
+      color: #929292;
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  background-color: #202020;
+  padding: 50px 0;
+
 }
