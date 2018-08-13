@@ -100,6 +100,50 @@ header nav .container-fluid .collapse .navbar-nav li a {
 .main .news {
   margin: 50px auto;
 }
+.main .news .news-box {
+  margin-bottom: 3rem;
+}
+.main .news .news-box div {
+  float: left;
+}
+.main .news .news-box .news-img-l,
+.main .news .news-box .news-box-m {
+  width: 100%;
+}
+.main .news .news-box .news-img-s {
+  width: 50%;
+}
+.main .addr {
+  border: 1px solid #b9b9b9;
+  width: 99%;
+  height: 8.9rem;
+  margin: 0 auto 3rem auto;
+}
+.main .addr p {
+  line-height: 1.1rem;
+  font-size: 0.78rem;
+  font-family: 'Helvetica';
+  color: #999;
+  display: block;
+  margin-left: 40%;
+  margin-top: 3.4rem;
+}
+.main .addr div {
+  background-position: 30% 90%;
+  background-repeat: no-repeat;
+}
+.main .addr .addr-phone {
+  background-image: url(../images/phone.png);
+}
+.main .addr .addr-box {
+  background-image: url(../images/point.png);
+}
+.main .addr .addr-mail {
+  background-image: url(../images/mail.png);
+}
+.main .addr .addr-mail p {
+  line-height: 2.2rem;
+}
 .main .box-title {
   width: 100%;
   margin-bottom: 50px;
