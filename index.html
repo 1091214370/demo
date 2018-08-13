@@ -21,7 +21,7 @@
     <![endif]-->
   </head>
   <body>
-    <header>
+    <header class="clearfix">
         <nav class="navbar navbar-default">
           <div class="container-fluid screen">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -84,15 +84,35 @@
           </div>
     </header>
 
-    <div class="screen main">
+    <div class="screen main clearfix">
       <div class="content">
-        <div class="content-item">
-          <div class="content-item-l"></div>
-          <div class="content-item-r"></div>
+        <div class="content-item clearfix">
+          <div class="col-xs-12 col-sm-5 content-item-r">
+            <div class="box-title">
+              <h1>北玻电力复合材料有限公司</h1>
+              <p>COMPANY PROFILE</p>
+            </div>
+            <div class="content-text">
+              <p>北玻电力复合材料有限公司(成立于2017年12月)是北京玻璃钢研究设计院科技成果孵化企业。公司继承了北玻院在先进复合材料产品设计、研发、制造方面的技术积淀以及在电力复合材料方面的研究成果，是专门从事电力复合材料、电力电气装备部件研制生产的科技型企业。 </p>
+              <p>公司拥有由多名教授级高级工程师领衔的专业技术团队。在高性能复合材料的理论基础、产品设计、结构仿真、成型工艺、加工工艺、性能检测等方面有着较高研究水平。与相关行业协会、应用单位、研发机构、高校建立了长期合作关系。</p>    
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-7 content-item-l">
+            <img src="./iamges/g1.png" alt="">
+          </div>
         </div>
-        <div class="content-item"></div>
+        <div class="content-item clearfix">
+          <div class="col-xs-12 col-sm-7 content-item-r">
+            <video  preload="auto">
+              <source src="./iamges/a.mp4" type="video/mp4" />
+              您的浏览器不支持 video 标签。</video>
+          </div>
+          <div class="col-xs-12 col-sm-5 content-item-l">
+            <img class="hidden-xs" src="./iamges/g2.png" alt="">
+          </div>
+        </div>
       </div>
-      <div class="jobShow">
+      <div class="jobShow clearfix">
         <div class="box-title">
           <h1>产品展示</h1>
           <p>PRODUCT INFORMATION</p>
@@ -133,8 +153,8 @@
             <a href="#" class="btn btn-default btn-lg" role="button">查看更多</a>
         </div>
       </div>
-      <hr style=" height:1px;border:none;border-top:1px solid #b9b9b9;" />
-      <div class="news">
+      <hr style="border:none;border-top:1px solid #b9b9b9;margin:0;" />
+      <div class="news clearfix">
           <div class="box-title">
             <h1>新闻中心</h1>
             <p>COMPANY NEWS</p>
@@ -143,11 +163,11 @@
               <a href="#" class="btn btn-default btn-lg" role="button">查看更多</a>
           </div>
       </div>
-      <div class="addr">
+      <div class="addr clearfix">
         
       </div>
     </div>
-    <footer>
+    <footer class="clearfix">
       
     </footer>
     <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->

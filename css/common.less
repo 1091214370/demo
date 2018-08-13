@@ -66,9 +66,45 @@ header {
 }
 // 中间部分
 .main {
-  margin: 5rem auto;
+  margin: auto;
   .content {
-
+    .content-item {
+      margin-bottom: 3rem;
+    }
+    margin: 3rem auto 0 auto;
+    .content-item-l {
+      float: right;
+      img {
+        width: 100%;
+      }
+      .hidden-xs{
+        width: 192px;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+    .content-item-r {
+      float: right;
+      video {
+        width: 100%;
+      }
+      .content-text{
+        max-height: 240px;
+        text-overflow:ellipsis;
+        overflow: hidden;
+        p{
+          line-height: 1.5rem;
+          font-size: 0.8rem;
+          font-family: "SourceHanSansCN-Regular";
+          color: #999;
+        }
+      }
+      .box-title{
+        h1,p {
+          text-align: left;
+        }
+      }
+    }
   }
   .jobShow {
     .row {

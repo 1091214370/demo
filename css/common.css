@@ -51,7 +51,45 @@ header nav .container-fluid .collapse .navbar-nav li a {
   font-family: "PingFangSC-Regular";
 }
 .main {
-  margin: 5rem auto;
+  margin: auto;
+}
+.main .content {
+  margin: 3rem auto 0 auto;
+}
+.main .content .content-item {
+  margin-bottom: 3rem;
+}
+.main .content .content-item-l {
+  float: right;
+}
+.main .content .content-item-l img {
+  width: 100%;
+}
+.main .content .content-item-l .hidden-xs {
+  width: 192px;
+  margin: 0 auto;
+  display: block;
+}
+.main .content .content-item-r {
+  float: right;
+}
+.main .content .content-item-r video {
+  width: 100%;
+}
+.main .content .content-item-r .content-text {
+  max-height: 240px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.main .content .content-item-r .content-text p {
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+  font-family: "SourceHanSansCN-Regular";
+  color: #999;
+}
+.main .content .content-item-r .box-title h1,
+.main .content .content-item-r .box-title p {
+  text-align: left;
 }
 .main .jobShow .row {
   margin: auto 0;
