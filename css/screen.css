@@ -12,8 +12,26 @@
     padding-left: 0.4rem!important;
     padding-right: 0.4rem!important;
   }
+  .content-item-l .hidden-xs {
+    width: 170px!important;
+  }
+  .addr-mail {
+    background-position: 27% 90%!important;
+  }
+  .router-l-f a {
+    width: calc(11.42857143%) !important;
+    height: 37px!important;
+    margin-left: 10px!important;
+  }
+  .router-l-f a:first-child {
+    width: 90px!important;
+    margin-left: 0!important;
+  }
+  .router-l-f a {
+    padding: 2rem 0.3rem!important;
+  }
 }
-@media (max-width: 1082px) {
+@media (max-width: 1140px) {
   .fontWeight {
     font-size: 14px;
   }
@@ -29,10 +47,83 @@
   .collapse {
     padding: 10px 0!important;
   }
+  .box-title {
+    margin-bottom: 0!important;
+  }
+  .box-title h1 {
+    font-size: 1.5rem;
+  }
+  .content-text {
+    max-height: 200px!important;
+  }
+  .content-text p {
+    line-height: 1.1rem!important;
+  }
+  .content-item-l .hidden-xs {
+    width: 150px!important;
+  }
+  .addr-mail {
+    background-position: 25% 90%!important;
+  }
+  .addr-box {
+    background-position: 20% 90%!important;
+  }
+  .addr-box p {
+    margin-left: 30%!important;
+  }
+  .router-l-f a {
+    width: calc(11.42857143%) !important;
+    height: 37px!important;
+    margin-left: 10px!important;
+  }
+  .router-l-f a:first-child {
+    width: 90px!important;
+    margin-left: 0!important;
+  }
+  .router-l-t a {
+    width: calc(11.42857143%) !important;
+    padding: 2rem 0.3rem!important;
+  }
+  .link {
+    line-height: 1rem!important;
+  }
 }
-@media (max-width: 910px) {
+@media (max-width: 960px) {
   .call {
     display: none!important;
+  }
+  .content-item-l .hidden-xs {
+    width: 130px!important;
+  }
+  .box-title {
+    margin-bottom: 0!important;
+  }
+  .box-title h1 {
+    font-size: 1.3rem;
+    margin: 0!important;
+  }
+  .content-text {
+    max-height: 200px!important;
+  }
+  .content-text p {
+    margin-bottom: 0;
+    line-height: 1rem!important;
+  }
+  .addr-mail {
+    background-position: 20% 90%!important;
+  }
+  .addr-box {
+    background-position: 5% 90%!important;
+  }
+  .addr-box p {
+    margin-left: 17%!important;
+  }
+  .router-l-t a {
+    width: calc(14%) !important;
+    padding: 2rem 0.3rem 2rem 0!important;
+  }
+  .router-l-t a:first-child {
+    width: 50px!important;
   }
 }
 @media (max-width: 767px) {
@@ -51,5 +142,40 @@
   .navbar-collapse li:active,
   .navbar-nav li:active {
     background-color: #ccc;
+  }
+  .box-title {
+    margin-bottom: 0!important;
+  }
+  .box-title h1 {
+    font-size: 1.5rem;
+    margin: 0!important;
+  }
+  .content-text {
+    max-height: 200px!important;
+  }
+  .content-text p {
+    margin-bottom: 10px;
+    line-height: 1.3rem!important;
+  }
+  .addr {
+    height: auto!important;
+  }
+  .addr p {
+    margin-left: 45%!important;
+    margin-top: 2rem!important;
+  }
+  .addr-phone {
+    margin-top: 1rem!important;
+    background-position: 40% 90%!important;
+  }
+  .addr-mail {
+    background-position: 40% 90%!important;
+    margin-bottom: 1rem;
+  }
+  .addr-mail p {
+    margin-left: 47%!important;
+  }
+  .addr-box {
+    background-position: 40% 90%!important;
   }
 }

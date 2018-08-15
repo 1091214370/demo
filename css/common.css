@@ -148,6 +148,7 @@ header nav .container-fluid .collapse .navbar-nav li a {
   background-image: url(../images/point.png);
 }
 .main .addr .addr-mail {
+  background-position: 29% 90%;
   background-image: url(../images/mail.png);
 }
 .main .addr .addr-mail p {
