@@ -25,6 +25,43 @@
   font-family: "Helvetica";
   padding-right: 0;
 }
+header .visible-xs {
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+header .visible-xs a {
+  display: inline-block;
+  width: 22%;
+  font-size: 1.5rem;
+  color: #333333;
+  font-family: 'PingFangSC-Regular';
+}
+header .visible-xs a span {
+  display: block;
+  width: 4.6rem;
+  height: 4.6rem;
+  margin: auto;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header .visible-xs .gsjj {
+  background-color: #1378f1;
+  background-image: url(../images/h.png);
+}
+header .visible-xs .cpzs {
+  background-color: #c277f2;
+  background-image: url(../images/zs.png);
+}
+header .visible-xs .xwzx {
+  background-color: #2bcfd9;
+  background-image: url(../images/xw.png);
+}
+header .visible-xs .lxwm {
+  background-color: #57dea3;
+  background-image: url(../images/lx.png);
+}
 header .navbar-default {
   margin-bottom: 0;
   background-color: #fff;
